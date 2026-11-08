@@ -1,0 +1,4 @@
+- insert:
+    - id: cache-queue
+      name: 'dsh-cache-queue'
+      config: {}

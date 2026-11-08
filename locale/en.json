@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cache Queue",
+    "description": "Park messages in a cache until you choose to send them, one at a time or all at once; common phrases become cache entries with one click."
+  }
+}

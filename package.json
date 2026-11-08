@@ -1,0 +1,68 @@
+{
+  "name": "dsh-cache-queue",
+  "version": "0.1.0",
+  "description": "A non-sending cache queue for the DeepSeek Harness composer: park messages, send them when you click, and reuse them as phrases.",
+  "type": "module",
+  "license": "MIT",
+  "author": "yangzhuyi2026",
+  "homepage": "https://github.com/yangzhuyi2026/dsh-cache-queue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangzhuyi2026/dsh-cache-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yangzhuyi2026/dsh-cache-queue/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "queue",
+    "composer",
+    "prompt",
+    "cache",
+    "phrases"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "缓存队列",
+    "description": "把写好的消息存进缓存先不发，等你想发时逐条或全部发出；常用语点一下就变成一条缓存。"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs/*.png",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check client.js",
+    "test": "npm run check && node test/host.test.mjs && node test/client.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
