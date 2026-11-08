@@ -11,13 +11,13 @@ when you click, and turn saved phrases into queued messages with one click. The 
 > Restart DSH once after installing. Client bundles are not hot-reloaded.
 
 <p align="center">
-  <img src="docs/screenshot-strip.png" alt="A one-line strip above the composer showing 缓存 1, with a Ctrl+Shift+S hint and the 存进缓存 / 全部发送 / 常用语 buttons" width="920">
+  <img src="https://raw.githubusercontent.com/yangzhuyi2026/dsh-cache-queue/main/docs/screenshot-strip.png" alt="A one-line strip above the composer showing 缓存 1, with a Ctrl+Shift+S hint and the 存进缓存 / 全部发送 / 常用语 buttons" width="920">
 </p>
 
 <p align="center"><sub>① Collapsed: one line next to the native queue strip, never covering the composer</sub></p>
 
 <p align="center">
-  <img src="docs/screenshot-expanded.png" alt="Expanded: the entry list with send / edit / save as phrase / move / delete, the phrase chips, the shortcut hint, and the strip still at the bottom" width="920">
+  <img src="https://raw.githubusercontent.com/yangzhuyi2026/dsh-cache-queue/main/docs/screenshot-expanded.png" alt="Expanded: the entry list with send / edit / save as phrase / move / delete, the phrase chips, the shortcut hint, and the strip still at the bottom" width="920">
 </p>
 
 <p align="center"><sub>② Expanded: hover the strip and the panel grows upward in place, holding the entries, phrases and shortcut hints; click the title to pin it open</sub></p>

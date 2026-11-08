@@ -11,13 +11,13 @@
 > 安装后需要**重启一次 DSH**，插件才会出现。客户端 bundle 不支持热更新。
 
 <p align="center">
-  <img src="docs/screenshot-strip.png" alt="输入框上方一行高的缓存条，显示「缓存 1」，右侧是 Ctrl+Shift+S 提示与「存进缓存 / 全部发送 / 常用语」按钮" width="920">
+  <img src="https://raw.githubusercontent.com/yangzhuyi2026/dsh-cache-queue/main/docs/screenshot-strip.png" alt="输入框上方一行高的缓存条，显示「缓存 1」，右侧是 Ctrl+Shift+S 提示与「存进缓存 / 全部发送 / 常用语」按钮" width="920">
 </p>
 
 <p align="center"><sub>① 收起状态：只占一行，和原生「排队中」条并列，不挡输入框</sub></p>
 
 <p align="center">
-  <img src="docs/screenshot-expanded.png" alt="展开状态：缓存条目列表（发送 / 编辑 / 存为常用语 / 上移下移 / 删除）、常用语 chips、快捷键提示，缓存条仍在最下方" width="920">
+  <img src="https://raw.githubusercontent.com/yangzhuyi2026/dsh-cache-queue/main/docs/screenshot-expanded.png" alt="展开状态：缓存条目列表（发送 / 编辑 / 存为常用语 / 上移下移 / 删除）、常用语 chips、快捷键提示，缓存条仍在最下方" width="920">
 </p>
 
 <p align="center"><sub>② 展开状态：鼠标移上去在原位向上展开，条目操作、常用语、快捷键提示都在这里；点标题可固定展开</sub></p>
